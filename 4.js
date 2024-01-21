@@ -12,4 +12,8 @@ xxxx
 xxxxx
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const arrX = [];
+for (let i = 0; i < 20; i++) {
+    arrX.push('x');
+    console.log(arrX.join(''));
+}
