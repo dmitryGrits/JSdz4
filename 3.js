@@ -14,21 +14,21 @@
 не окажется, значит нужно будет вывести пустой массив.
 */
 
-const arr = [];
-for (let i = 0; i < 5; i++) {
-  arr.push(Math.floor(Math.random() * 10));
-}
+// const arr = [];
+// for (let i = 0; i < 5; i++) {
+//   arr.push(Math.floor(Math.random() * 10));
+// }
 
-console.log(arr); // Сам массив
+// console.log(arr); // Сам массив
 
-console.log(arr.reduce((acc, val) => acc + val, 0)); // Сумма элемнтов
+// console.log(arr.reduce((acc, val) => acc + val, 0)); // Сумма элемнтов
 
-console.log(Math.min(...arr)); // Минимальное
+// console.log(Math.min(...arr)); // Минимальное
 
-const newArr = [];
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 3) {
-        newArr.push(i);
-    }  
-}
-console.log(newArr); // Новый массив
+// const newArr = [];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 3) {
+//         newArr.push(i);
+//     }  
+// }
+// console.log(newArr); // Новый массив
